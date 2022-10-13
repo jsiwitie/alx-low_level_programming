@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main-the entry point for program
+ * main - Entry point for program
  *
  * Description: 'Helloworld program'
  *
- * return: Always 0
+ * Return: Always 0 (When Success)
  */
 
 int main(void)

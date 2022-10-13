@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point for program
- *
  * Description: 'C low programming'
- *
- * Return: Always 0 (When Sucsess)
+ * Return: Always 0 (When Success)
  */
 
 int main(void)

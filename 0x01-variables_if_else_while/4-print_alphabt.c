@@ -14,6 +14,10 @@ int main(void)
 			++az;
 		putchar(az);
 		++az;
-		return (0);
+
 	}
+
+	putchar('\n');
+
+	return (0);
 }

@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- * main- program's main entry point
- *
- * Description: 'This is the program that prints the alphabet in lowercase, and then in uppercase, followed by a new line'
- *
- * Return: The program always return a 0
+ * main- program entry point
+ * Description: 'program prints alphabet lowercase,uppercase,new line'
+ * Return: program always returns 0
  */
 int main(void)
 {

@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - program entry point
+ * main- program entry point
  * Description: 'program for assigning and printing random numbers'
  * Return: returns 0 as usual
  */

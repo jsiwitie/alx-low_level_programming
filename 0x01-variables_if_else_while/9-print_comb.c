@@ -1,10 +1,10 @@
 #include <stdio.h>
 /*
- * main - Program entry point
+ * main - Entry point
  *
- * Description: 'the program's descritpion'
+ * Description: 'the program's description'
  *
- * Return: retuns a 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 
 	for (single_digit = 0; single_digit < 10; single_digit++)
 	{
-		putchar(single_digit + '0');
+		putchar(single_digit);
 		putchar(',');
 		putchar(' ');
 	}

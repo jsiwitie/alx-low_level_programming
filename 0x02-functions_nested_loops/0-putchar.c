@@ -1,11 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Entry point for programme
- * Description: 'Program that prints _putchar followed by newline'
- * Return: returns 0
+ * main - programs entry point
+ * Description: 'program prints _putchar'
+ * Return: program returns a 0
  */
 int main(void)
 {
-	printf("_putchar \n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }

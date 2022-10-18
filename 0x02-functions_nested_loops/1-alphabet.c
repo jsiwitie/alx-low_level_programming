@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - program entry point
+ * print_alphabet - program name
  * Description: 'prints alphabet in lowercase,newline'
- * Return: 0 is returned
+ * Return: nothing is returned
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alph;
 
@@ -13,5 +13,4 @@ int main(void)
 		_putchar(alph);
 		_putchar('\n');
 	}
-	return (0);
 }

@@ -1,21 +1,27 @@
 #include <stdio.h>
-/*
- * main - Entry point
- *
- * Description: 'the program's description'
- *
+
+/**
+ * main - program entry point
+ * Description - 'Nested loop print 0 to 9 commas spaces in ascending order'
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int single_digit;
+	int c;
 
-	for (single_digit = 0; single_digit < 10; single_digit++)
+	c = 0;
+
+	while ('0' + c <= '9')
 	{
-		putchar(single_digit);
-		putchar(',');
-		putchar(' ');
+		putchar('0' + c);
+		if (!('0' + c == '9'))
+		{
+			putchar (',');
+			putchar (' ');
+		}
+		c++;
 	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }

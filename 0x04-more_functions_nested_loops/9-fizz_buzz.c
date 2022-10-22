@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prototype name
+ * main - programs entry point
  * Description: 'prints Fizz for int divisible by 3 and Buzz for 5'
  * Return: int
  */
@@ -10,28 +10,18 @@ int main(void)
 {
 	int i;
 
-	for (i = 1; i <= 100; i++)
+	printf("1");
+
+	for (i = 2; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 != 0)
-		{
+		printf(" ");
+		if (i % 3 == 0)
 			printf("Fizz");
-		}
-		else if (i % 3 != 0 && i % 5 == 0)
-		{
-			printf("Buzz");
-		}
-		else if (i % 3 == 0 && i % 5 == 0)
-		{
-			printf("FizzBuzz");
-			else
-			{
-				printf("%d", i);
-			}
-			if (i != 100)
-				putchar(' ');
-			else
-				putchar('\n');
-		}
-		return (0);
+		if (i % 5 == 0)
+			printf("buzz");
+		if (i % 3 == 0 && i % 5 == 0)
+			printf("d", n);
 	}
+	printf("\n");
+	return (0);
 }

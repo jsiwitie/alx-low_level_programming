@@ -1,15 +1,22 @@
 #include <stdio.h>
+
 /**
- * main - program entry
- * Description: 'prints numbers'
- * Return: returns 0
+ * main - program entry point
+ * Description: ' print numbers 0 to 9 using while statement'
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	for (num = 0; num <= 10; num++)
+	char c;
+
+	c = '0';
+
+	while (c <= '9')
 	{
-		putchar(num);
+		putchar(c);
+		c++;
 	}
-	putchar('\');
+	putchar('\n');
 	return (0);
 }
